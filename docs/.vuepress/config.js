@@ -1,27 +1,27 @@
 module.exports = {
-	title: "博客",
+	title: "l博客",
 	description: "Just playing around",
 	themeConfig: {
 		nav: [
 			{ text: "主页", link: "/" },
 			{
-				text: "随机博客",
-				link: "/guide",
+				text: "其他",
+				link: "/others/",
+			},
+            {
+				text: "技术栈",
 				items: [
-					{ text: "Chinese", link: "/language/chinese/" },
-					{ text: "Japanese", link: "/language/japanese/" },
+					{ text: "Flutter", link: "/techStack/flutter/" },
+					{ text: "Node", link: "/techStack/node/" },
+					{ text: "Web", link: "/techStack/web/" },
 				],
 			},
             {
-				text: "我的技术栈",
-				link: "/techStack",
-				items: [
-					{ text: "Flutter", link: "/flutter/" },
-					{ text: "Japanese", link: "/japanese/" },
-				],
+				text: "无关",
+                link:"/irrelevant/"
 			},
 			{
-				text: "External",
+				text: "GitHub",
                 link:"https://github.com/"
 			},
 		],
